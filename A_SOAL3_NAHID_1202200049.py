@@ -1,0 +1,14 @@
+
+for x in range(1):
+    for i in range (x+1):
+        print("\n1",end=" ")
+    for x in range(3):
+        for i in range (x+1):
+            print("\n3",end=" ")
+    for x in range(5):
+        for i in range (x+1):
+            print("\n5",end=" ")
+    for x in range(9):
+        for i in range (x+1):
+            print("\n9",end=" ")
+    
