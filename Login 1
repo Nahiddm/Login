@@ -1,0 +1,10 @@
+i=3
+while i>=1:
+    username=input("Masukan username anda : ")
+    password=input("Masukan password anda : ")
+    if username=="alpro" and password=="daspro123":
+        print ("Selamat, Anda berhasil login!")
+        break
+    else :
+        i-=1
+        print("Login gagal, sisa percobaan login sebanyak ", i )
